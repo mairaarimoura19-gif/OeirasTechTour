@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Layout responsável pela tela de visita acessível da Praça das Vitórias.
+-->
+<!-- ScrollView responsável por permitir leitura completa do roteiro turístico. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rolagem_praca_vitorias"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tela_principal"
+    android:fillViewport="true">
+
+    <!-- LinearLayout responsável por organizar a imagem, os textos, a galeria e os controles da visita. -->
+    <LinearLayout
+        android:id="@+id/area_praca_vitorias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="24dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="32dp">
+
+        <!-- ImageView responsável por exibir a visão geral da Praça das Vitórias. -->
+        <ImageView
+            android:id="@+id/imagem_praca_vitorias"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/fundo_imagem"
+            android:contentDescription="@string/descricao_imagem_visao_geral_praca"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/visao_geral_praca" />
+
+        <!-- TextView responsável por exibir o título da tela da praça. -->
+        <TextView
+            android:id="@+id/texto_titulo_praca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/praca_titulo"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- TextView responsável por exibir o subtítulo do roteiro da praça. -->
+        <TextView
+            android:id="@+id/texto_subtitulo_praca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/praca_subtitulo"
+            android:textColor="@color/cor_dourado_logo_escuro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Button responsável por ativar ou desativar o modo acessibilidade. -->
+        <Button
+            android:id="@+id/botao_modo_acessibilidade_praca"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/fundo_botao_secundario"
+            android:fontFamily="sans-serif"
+            android:text="@string/botao_desativar_modo_acessibilidade"
+            android:textAllCaps="false"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <!-- TextView responsável por nomear a seção de descrição da praça. -->
+        <TextView
+            android:id="@+id/texto_secao_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/praca_secao_descricao"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- LinearLayout responsável por agrupar os parágrafos descritivos da praça. -->
+        <LinearLayout
+            android:id="@+id/area_descricao_praca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fundo_area_destaque"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- TextView responsável por exibir o primeiro parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_1"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_1" />
+
+            <!-- TextView responsável por exibir o segundo parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_2"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_2" />
+
+            <!-- TextView responsável por exibir o terceiro parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_3"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_3" />
+
+            <!-- TextView responsável por exibir o quarto parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_4"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_4" />
+
+            <!-- TextView responsável por exibir o quinto parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_5"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_5" />
+
+            <!-- TextView responsável por exibir o sexto parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_6"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_6" />
+
+            <!-- TextView responsável por exibir o sétimo parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_7"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_7" />
+
+            <!-- TextView responsável por exibir o oitavo parágrafo da descrição. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_8"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_8" />
+        </LinearLayout>
+
+        <!-- TextView responsável por nomear a seção de história e cultura. -->
+        <TextView
+            android:id="@+id/texto_secao_historia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/praca_secao_historia"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- LinearLayout responsável por agrupar os parágrafos históricos e culturais. -->
+        <LinearLayout
+            android:id="@+id/area_historia_praca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fundo_area_destaque"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- TextView responsável por exibir o primeiro parágrafo histórico. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_9"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_9" />
+
+            <!-- TextView responsável por exibir o segundo parágrafo histórico. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_10"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_10" />
+
+            <!-- TextView responsável por exibir o terceiro parágrafo histórico. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_11"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_11" />
+
+            <!-- TextView responsável por exibir o quarto parágrafo histórico. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_12"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_12" />
+
+            <!-- TextView responsável por exibir o parágrafo de expansão futura. -->
+            <TextView
+                android:id="@+id/texto_praca_paragrafo_13"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/praca_paragrafo_13" />
+        </LinearLayout>
+
+        <!-- TextView responsável por nomear a seção de pontos turísticos próximos. -->
+        <TextView
+            android:id="@+id/texto_secao_pontos_turisticos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/praca_secao_pontos_turisticos"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- LinearLayout responsável por agrupar os pontos turísticos ao redor da praça. -->
+        <LinearLayout
+            android:id="@+id/area_pontos_turisticos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fundo_area_destaque"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp">
+
+            <!-- TextView responsável por descrever o Museu de Arte Sacra. -->
+            <TextView
+                android:id="@+id/texto_ponto_museu_arte_sacra"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/ponto_museu_arte_sacra" />
+
+            <!-- ImageView responsável por exibir o Museu de Arte Sacra logo após sua descrição. -->
+            <ImageView
+                android:id="@+id/imagem_contexto_museu_arte_sacra"
+                style="@style/ImagemContextoOeiras"
+                android:contentDescription="@string/descricao_imagem_museu_arte_sacra"
+                android:src="@drawable/museu_arte_sacra" />
+
+            <!-- TextView responsável por exibir a legenda da imagem do Museu de Arte Sacra. -->
+            <TextView
+                android:id="@+id/legenda_contexto_museu_arte_sacra"
+                style="@style/LegendaContextoOeiras"
+                android:text="@string/legenda_museu_arte_sacra" />
+
+            <!-- TextView responsável por descrever a Igreja Matriz de Nossa Senhora das Vitórias. -->
+            <TextView
+                android:id="@+id/texto_ponto_igreja_matriz"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/ponto_igreja_matriz" />
+
+            <!-- ImageView responsável por exibir a Igreja Matriz logo após sua descrição. -->
+            <ImageView
+                android:id="@+id/imagem_contexto_igreja_matriz"
+                style="@style/ImagemContextoOeiras"
+                android:contentDescription="@string/descricao_imagem_igreja_matriz"
+                android:src="@drawable/igreja_matriz" />
+
+            <!-- TextView responsável por exibir a legenda da imagem da Igreja Matriz. -->
+            <TextView
+                android:id="@+id/legenda_contexto_igreja_matriz"
+                style="@style/LegendaContextoOeiras"
+                android:text="@string/legenda_igreja_matriz" />
+
+            <!-- TextView responsável por descrever a Prefeitura Municipal de Oeiras. -->
+            <TextView
+                android:id="@+id/texto_ponto_prefeitura"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/ponto_prefeitura" />
+
+            <!-- ImageView responsável por exibir a Prefeitura Municipal logo após sua descrição. -->
+            <ImageView
+                android:id="@+id/imagem_contexto_prefeitura"
+                style="@style/ImagemContextoOeiras"
+                android:contentDescription="@string/descricao_imagem_prefeitura"
+                android:src="@drawable/prefeitura_oeiras" />
+
+            <!-- TextView responsável por exibir a legenda da imagem da Prefeitura Municipal. -->
+            <TextView
+                android:id="@+id/legenda_contexto_prefeitura"
+                style="@style/LegendaContextoOeiras"
+                android:text="@string/legenda_prefeitura" />
+
+            <!-- TextView responsável por descrever o Solar das Doze Janelas. -->
+            <TextView
+                android:id="@+id/texto_ponto_solar_doze_janelas"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/ponto_solar_doze_janelas" />
+
+            <!-- ImageView responsável por exibir o Solar das Doze Janelas logo após sua descrição. -->
+            <ImageView
+                android:id="@+id/imagem_contexto_solar_doze_janelas"
+                style="@style/ImagemContextoOeiras"
+                android:contentDescription="@string/descricao_imagem_solar_doze_janelas"
+                android:src="@drawable/solar_doze_janelas" />
+
+            <!-- TextView responsável por exibir a legenda da imagem do Solar das Doze Janelas. -->
+            <TextView
+                android:id="@+id/legenda_contexto_solar_doze_janelas"
+                style="@style/LegendaContextoOeiras"
+                android:text="@string/legenda_solar_doze_janelas" />
+
+            <!-- TextView responsável por descrever o Museu Os Doca Nunes. -->
+            <TextView
+                android:id="@+id/texto_ponto_museu_doca_nunes"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/ponto_museu_doca_nunes" />
+
+            <!-- ImageView responsável por exibir o Museu Os Doca Nunes logo após sua descrição. -->
+            <ImageView
+                android:id="@+id/imagem_contexto_museu_doca_nunes"
+                style="@style/ImagemContextoOeiras"
+                android:contentDescription="@string/descricao_imagem_museu_doca_nunes"
+                android:src="@drawable/museu_doca_nunes" />
+
+            <!-- TextView responsável por exibir a legenda da imagem do Museu Os Doca Nunes. -->
+            <TextView
+                android:id="@+id/legenda_contexto_museu_doca_nunes"
+                style="@style/LegendaContextoOeiras"
+                android:text="@string/legenda_museu_doca_nunes" />
+
+            <!-- TextView responsável por descrever a Pousada do Cônego. -->
+            <TextView
+                android:id="@+id/texto_ponto_pousada_conego"
+                style="@style/TextoParagrafoOeiras"
+                android:text="@string/ponto_pousada_conego" />
+
+            <!-- ImageView responsável por exibir a Pousada do Cônego logo após sua descrição. -->
+            <ImageView
+                android:id="@+id/imagem_contexto_pousada_conego"
+                style="@style/ImagemContextoOeiras"
+                android:contentDescription="@string/descricao_imagem_pousada_conego"
+                android:src="@drawable/pousada_conego" />
+
+            <!-- TextView responsável por exibir a legenda da imagem da Pousada do Cônego. -->
+            <TextView
+                android:id="@+id/legenda_contexto_pousada_conego"
+                style="@style/LegendaContextoOeiras"
+                android:text="@string/legenda_pousada_conego" />
+        </LinearLayout>
+
+        <!-- TextView responsável por nomear a galeria de imagens do roteiro. -->
+        <TextView
+            android:id="@+id/texto_secao_imagens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/praca_secao_imagens"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- HorizontalScrollView responsável por permitir navegação lateral pelas imagens. -->
+        <HorizontalScrollView
+            android:id="@+id/rolagem_horizontal_imagens"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+            <!-- LinearLayout responsável por organizar os itens da galeria em linha. -->
+            <LinearLayout
+                android:id="@+id/area_galeria_imagens"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- LinearLayout responsável por agrupar a imagem e a legenda do detalhe da Igreja Matriz. -->
+                <LinearLayout
+                    android:id="@+id/item_galeria_igreja_matriz_zoom"
+                    style="@style/ItemGaleriaOeiras">
+
+                    <!-- ImageView responsável por exibir o detalhe da Igreja Matriz na galeria complementar. -->
+                    <ImageView
+                        android:id="@+id/imagem_galeria_igreja_matriz_zoom"
+                        style="@style/ImagemGaleriaOeiras"
+                        android:contentDescription="@string/descricao_imagem_igreja_matriz_zoom"
+                        android:src="@drawable/igreja_matriz_zoom" />
+
+                    <!-- TextView responsável por exibir a legenda do detalhe da Igreja Matriz. -->
+                    <TextView
+                        android:id="@+id/legenda_galeria_igreja_matriz_zoom"
+                        style="@style/LegendaGaleriaOeiras"
+                        android:text="@string/legenda_igreja_matriz_zoom" />
+                </LinearLayout>
+
+                <!-- LinearLayout responsável por agrupar a imagem e a legenda da fachada frontal do Museu de Arte Sacra. -->
+                <LinearLayout
+                    android:id="@+id/item_galeria_museu_arte_sacra_frente"
+                    style="@style/ItemGaleriaOeiras">
+
+                    <!-- ImageView responsável por exibir a fachada frontal do Museu de Arte Sacra. -->
+                    <ImageView
+                        android:id="@+id/imagem_galeria_museu_arte_sacra_frente"
+                        style="@style/ImagemGaleriaOeiras"
+                        android:contentDescription="@string/descricao_imagem_museu_arte_sacra_frente"
+                        android:src="@drawable/museu_arte_sacra_frente" />
+
+                    <!-- TextView responsável por exibir a legenda da fachada frontal do Museu de Arte Sacra. -->
+                    <TextView
+                        android:id="@+id/legenda_galeria_museu_arte_sacra_frente"
+                        style="@style/LegendaGaleriaOeiras"
+                        android:text="@string/legenda_museu_arte_sacra_frente" />
+                </LinearLayout>
+
+                <!-- LinearLayout responsável por agrupar a imagem e a legenda da visão complementar da praça. -->
+                <LinearLayout
+                    android:id="@+id/item_galeria_visao_alternativa_praca"
+                    style="@style/ItemGaleriaOeiras">
+
+                    <!-- ImageView responsável por exibir uma visão complementar da Praça das Vitórias. -->
+                    <ImageView
+                        android:id="@+id/imagem_galeria_visao_alternativa_praca"
+                        style="@style/ImagemGaleriaOeiras"
+                        android:contentDescription="@string/descricao_imagem_visao_alternativa_praca"
+                        android:src="@drawable/visao_alternativa_praca" />
+
+                    <!-- TextView responsável por exibir a legenda da visão complementar da praça. -->
+                    <TextView
+                        android:id="@+id/legenda_galeria_visao_alternativa_praca"
+                        style="@style/LegendaGaleriaOeiras"
+                        android:text="@string/legenda_visao_alternativa_praca" />
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Button responsável por retornar da tela da praça para o menu principal. -->
+        <Button
+            android:id="@+id/botao_voltar_menu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fundo_botao_principal"
+            android:fontFamily="sans-serif"
+            android:text="@string/botao_voltar_menu"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

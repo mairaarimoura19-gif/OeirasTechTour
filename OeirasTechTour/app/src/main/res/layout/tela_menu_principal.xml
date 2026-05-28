@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Layout responsável pela tela inicial do aplicativo.
+-->
+<!-- ScrollView responsável por permitir que o conteúdo do menu seja lido em telas menores. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rolagem_menu_inicial"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_tela_principal"
+    android:clickable="true"
+    android:fillViewport="true">
+
+    <!-- LinearLayout responsável por organizar verticalmente o logotipo, textos e botões do menu. -->
+    <LinearLayout
+        android:id="@+id/area_menu_inicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="32dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="32dp">
+
+        <!-- ImageView responsável por exibir o logotipo oficial do aplicativo. -->
+        <ImageView
+            android:id="@+id/imagem_logo_aplicativo"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/descricao_imagem_logo"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo_aplicativo" />
+
+        <!-- TextView responsável por exibir a proposta acessível do aplicativo. -->
+        <TextView
+            android:id="@+id/texto_subtitulo_aplicativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/menu_subtitulo_aplicativo"
+            android:textColor="@color/cor_dourado_logo_escuro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- LinearLayout responsável por destacar a apresentação textual do aplicativo. -->
+        <LinearLayout
+            android:id="@+id/area_apresentacao_aplicativo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fundo_area_destaque"
+            android:orientation="vertical"
+            android:paddingLeft="18dp"
+            android:paddingTop="18dp"
+            android:paddingRight="18dp"
+            android:paddingBottom="18dp">
+
+            <!-- TextView responsável por exibir o primeiro parágrafo de apresentação. -->
+            <TextView
+                android:id="@+id/texto_menu_paragrafo_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/menu_paragrafo_1"
+                android:textColor="@color/cor_texto_principal"
+                android:textSize="18sp" />
+
+            <!-- TextView responsável por exibir o segundo parágrafo de apresentação. -->
+            <TextView
+                android:id="@+id/texto_menu_paragrafo_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/menu_paragrafo_2"
+                android:textColor="@color/cor_texto_principal"
+                android:textSize="18sp" />
+
+            <!-- TextView responsável por orientar a ação de toque na tela inicial. -->
+            <TextView
+                android:id="@+id/texto_instrucao_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:lineSpacingExtra="4dp"
+                android:text="@string/menu_instrucao_toque"
+                android:textColor="@color/cor_texto_secundario"
+                android:textSize="17sp" />
+        </LinearLayout>
+
+        <!-- Button responsável por abrir a tela da Praça das Vitórias. -->
+        <Button
+            android:id="@+id/botao_conhecer_praca_vitorias"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/fundo_botao_principal"
+            android:fontFamily="sans-serif"
+            android:text="@string/botao_conhecer_praca_vitorias"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Button responsável por ativar ou desativar o modo acessibilidade. -->
+        <Button
+            android:id="@+id/botao_modo_acessibilidade_menu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/fundo_botao_secundario"
+            android:fontFamily="sans-serif"
+            android:text="@string/botao_desativar_modo_acessibilidade"
+            android:textAllCaps="false"
+            android:textColor="@color/cor_azul_logo"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

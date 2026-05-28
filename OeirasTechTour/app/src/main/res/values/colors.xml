@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Arquivo responsável por centralizar a paleta visual do aplicativo.
+-->
+<resources>
+    <!-- Cores originais mantidas para compatibilidade com arquivos gerados pelo Android Studio. -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores baseadas no logotipo do Oeiras Tech Tour. -->
+    <color name="cor_azul_logo">#073462</color>
+    <color name="cor_azul_logo_escuro">#052643</color>
+    <color name="cor_dourado_logo">#E7AA2E</color>
+    <color name="cor_dourado_logo_escuro">#B77B14</color>
+    <color name="cor_fundo_claro">#FFFDF8</color>
+    <color name="cor_fundo_suave">#F5EFE2</color>
+    <color name="cor_superficie">#FFFFFFFF</color>
+    <color name="cor_texto_principal">#15202B</color>
+    <color name="cor_texto_secundario">#4B5863</color>
+    <color name="cor_borda_suave">#D9C9A5</color>
+    <color name="cor_sombra_discreta">#33073462</color>
+    <color name="cor_erro_suave">#7A1E12</color>
+</resources>
