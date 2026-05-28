@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Seletor responsável por definir o fundo do botão principal.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/cor_azul_logo_escuro" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/cor_azul_logo" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
