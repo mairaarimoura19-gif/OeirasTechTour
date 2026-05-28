@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Manifesto responsável por declarar as telas do aplicativo.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Application responsável por configurar o aplicativo Oeiras Tech Tour. -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icone_aplicativo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icone_aplicativo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OeirasTechTour">
+
+        <!-- Activity responsável por exibir a tela da Praça das Vitórias. -->
+        <activity
+            android:name=".TelaPracaVitorias"
+            android:exported="false"
+            android:label="@string/praca_titulo"
+            android:theme="@style/Theme.OeirasTechTour" />
+
+        <!-- Activity responsável por abrir o menu inicial do aplicativo. -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.OeirasTechTour">
+            <!-- Intent-filter responsável por tornar o menu inicial a primeira tela do aplicativo. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
