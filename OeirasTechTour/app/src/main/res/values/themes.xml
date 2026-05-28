@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Arquivo responsável por definir o tema e estilos reutilizáveis do aplicativo.
+-->
+<resources>
+
+    <style name="Theme.OeirasTechTour" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:navigationBarColor">@color/cor_fundo_claro</item>
+        <item name="android:statusBarColor">@color/cor_fundo_claro</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="TextoParagrafoOeiras">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">4dp</item>
+        <item name="android:textColor">@color/cor_texto_principal</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="ItemGaleriaOeiras">
+        <item name="android:layout_width">220dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:background">@drawable/fundo_area_destaque</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="ImagemGaleriaOeiras">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:background">@drawable/fundo_imagem</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="LegendaGaleriaOeiras">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/cor_texto_secundario</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ImagemContextoOeiras">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">190dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/fundo_imagem</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="LegendaContextoOeiras">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/cor_texto_secundario</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

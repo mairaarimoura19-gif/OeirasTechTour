@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Desenho responsável por aplicar o fundo claro das telas principais.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/cor_fundo_claro" />
+</shape>
