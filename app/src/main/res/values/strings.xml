@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Autor: Equipe Oeiras Tech Tuor.
+    Arquivo responsável por centralizar todos os textos visíveis do aplicativo.
+-->
+<resources>
+    <string name="app_name">Oeiras Tech Tour</string>
+
+    <string name="menu_titulo_aplicativo">Oeiras Tech Tour</string>
+    <string name="menu_subtitulo_aplicativo">Navegação turística acessível</string>
+    <string name="menu_paragrafo_1">Bem-vindo ao Oeiras Tech Tour, um guia criado para apresentar pontos históricos de Oeiras com áudio, texto e imagens.</string>
+    <string name="menu_paragrafo_2">Neste primeiro momento, você pode conhecer a Praça das Vitórias, um dos espaços mais importantes do centro histórico da cidade.</string>
+    <string name="menu_instrucao_toque">Toque em qualquer parte da tela ou use o botão abaixo para iniciar a visita à Praça das Vitórias.</string>
+    <string name="botao_conhecer_praca_vitorias">Conhecer Praça das Vitórias</string>
+    <string name="botao_pausar_audio">Pausar áudio</string>
+    <string name="botao_reproduzir_audio">Reproduzir áudio</string>
+    <string name="botao_desativar_modo_acessibilidade">Desativar modo acessibilidade</string>
+    <string name="botao_ativar_modo_acessibilidade">Ativar modo acessibilidade</string>
+    <string name="aviso_modo_acessibilidade_ativado">Modo acessibilidade ativado.</string>
+    <string name="aviso_modo_acessibilidade_desativado">Modo acessibilidade desativado. O áudio não será iniciado automaticamente.</string>
+    <string name="botao_voltar_menu">Voltar ao menu</string>
+    <string name="descricao_imagem_logo">Logotipo do Oeiras Tech Tour, com igreja, caminho turístico e ondas sonoras.</string>
+
+    <string name="praca_titulo">Praça das Vitórias</string>
+    <string name="praca_subtitulo">Roteiro acessível pelo centro histórico de Oeiras</string>
+    <string name="praca_secao_descricao">Descrição da praça</string>
+    <string name="praca_paragrafo_1">Seja bem-vindo à Praça das Vitórias. Você está em um espaço público amplo, de formato retangular, localizado em uma área histórica e bastante movimentada da cidade.</string>
+    <string name="praca_paragrafo_2">Ao seu redor, existe um ambiente arborizado. Árvores como o ipê e a carnaúba ficam distribuídas ao longo da praça, oferecem sombra e tornam o clima mais fresco e agradável.</string>
+    <string name="praca_paragrafo_3">Enquanto caminha, preste atenção aos sons do ambiente. É possível ouvir pássaros, vozes de pessoas conversando e passos ao longo dos caminhos, sinais do movimento constante no local.</string>
+    <string name="praca_paragrafo_4">No centro da praça, há uma fonte de água que funciona como ponto de referência. Durante o dia, ela pode ser percebida principalmente por sua estrutura; à noite, quando ligada, o som da água ajuda na orientação.</string>
+    <string name="praca_paragrafo_5">O solo da praça é irregular em alguns trechos, com leves desníveis ao longo do percurso. Existem rampas de acesso, mas é importante caminhar com atenção ao perceber mudanças na inclinação do piso.</string>
+    <string name="praca_paragrafo_6">O chão alterna entre áreas de grama e caminhos de cimento. Os calçadões são mais firmes e ajudam a guiar o trajeto, enquanto as áreas gramadas indicam zonas de convivência e contato com a natureza.</string>
+    <string name="praca_paragrafo_7">Ao longo da praça, há bancos de cimento para descanso, lixeiras seletivas e placas informativas sobre preservação do ambiente. A praça reúne natureza, história e convivência.</string>
+    <string name="praca_paragrafo_8">Se desejar continuar explorando, siga pelos caminhos de cimento e use os sons, as variações do piso e a disposição dos elementos ao redor como referências para sua orientação.</string>
+
+    <string name="praca_secao_historia">História e cultura</string>
+    <string name="praca_paragrafo_9">Historicamente, o local marca o início da antiga Vila Mocha e já abrigou o Pelourinho. No século XIX, foi arborizado e se tornou palco da Proclamação da Independência do Piauí, em 1823.</string>
+    <string name="praca_paragrafo_10">Hoje, é uma das principais praças da cidade, com grande importância histórica, cultural e social para Oeiras e para o Piauí.</string>
+    <string name="praca_paragrafo_11">O conjunto ao redor da praça forma um dos principais polos históricos, culturais e religiosos do Piauí, além de manter viva a tradição da Procissão de Bom Jesus dos Passos durante a Semana Santa.</string>
+    <string name="praca_paragrafo_12">Durante a noite, o local fica mais movimentado e reúne opções de lanches, produtos locais e espaços de convivência frequentados por moradores e visitantes.</string>
+    <string name="praca_paragrafo_13">Em breve, novos espaços históricos também poderão ser incluídos no Oeiras Tech Tour.</string>
+
+    <string name="praca_secao_pontos_turisticos">Pontos ao redor da praça</string>
+    <string name="ponto_museu_arte_sacra">Museu de Arte Sacra de Oeiras: prédio colonial de fachada branca, com portas e janelas alinhadas, preservando peças religiosas e históricas.</string>
+    <string name="ponto_igreja_matriz">Igreja Matriz de Nossa Senhora das Vitórias: símbolo da fé local, com ambiente amplo, silencioso e marcado por tradições religiosas.</string>
+    <string name="ponto_prefeitura">Prefeitura Municipal de Oeiras: instalada no Sobrado dos Ferraz, casarão colonial de fachada ampla, portas verdes e sacadas com grades de ferro.</string>
+    <string name="ponto_solar_doze_janelas">Solar das Doze Janelas: construção histórica conhecida pela fachada organizada e pelas doze janelas distribuídas de forma simétrica.</string>
+    <string name="ponto_museu_doca_nunes">Museu Os Doca Nunes: espaço dedicado à preservação da história local, instalado em prédio antigo com portas e janelas de madeira.</string>
+    <string name="ponto_pousada_conego">Pousada do Cônego: opção tradicional de hospedagem próxima à praça, com estilo colonial, pátio interno e ambiente histórico.</string>
+
+    <string name="praca_secao_imagens">Registros complementares</string>
+    <string name="legenda_visao_geral_praca">Visão geral da Praça das Vitórias</string>
+    <string name="legenda_igreja_matriz">Igreja Matriz de Nossa Senhora das Vitórias</string>
+    <string name="legenda_museu_arte_sacra">Museu de Arte Sacra de Oeiras</string>
+    <string name="legenda_prefeitura">Prefeitura Municipal de Oeiras</string>
+    <string name="legenda_solar_doze_janelas">Solar das Doze Janelas</string>
+    <string name="legenda_museu_doca_nunes">Museu Os Doca Nunes</string>
+    <string name="legenda_pousada_conego">Pousada do Cônego</string>
+    <string name="legenda_igreja_matriz_zoom">Detalhe da Igreja Matriz de Nossa Senhora das Vitórias</string>
+    <string name="legenda_museu_arte_sacra_frente">Fachada frontal do Museu de Arte Sacra de Oeiras</string>
+    <string name="legenda_visao_alternativa_praca">Outro ângulo da Praça das Vitórias</string>
+    <string name="descricao_imagem_visao_geral_praca">Imagem ampla da Praça das Vitórias, com árvores, bancos, caminhos e casarões ao fundo.</string>
+    <string name="descricao_imagem_igreja_matriz">Imagem da Igreja Matriz de Nossa Senhora das Vitórias, ponto religioso e histórico de Oeiras.</string>
+    <string name="descricao_imagem_museu_arte_sacra">Imagem do Museu de Arte Sacra de Oeiras, com fachada colonial.</string>
+    <string name="descricao_imagem_prefeitura">Imagem da Prefeitura Municipal de Oeiras, instalada em casarão histórico.</string>
+    <string name="descricao_imagem_solar_doze_janelas">Imagem do Solar das Doze Janelas, com fachada simétrica.</string>
+    <string name="descricao_imagem_museu_doca_nunes">Imagem do Museu Os Doca Nunes, prédio histórico dedicado à memória local.</string>
+    <string name="descricao_imagem_pousada_conego">Imagem da Pousada do Cônego, hospedagem em estilo colonial próxima à praça.</string>
+    <string name="descricao_imagem_igreja_matriz_zoom">Imagem aproximada da Igreja Matriz de Nossa Senhora das Vitórias.</string>
+    <string name="descricao_imagem_museu_arte_sacra_frente">Imagem frontal do Museu de Arte Sacra de Oeiras.</string>
+    <string name="descricao_imagem_visao_alternativa_praca">Imagem da Praça das Vitórias por outro ângulo, mostrando árvores e área de convivência.</string>
+
+    <string name="audio_indisponivel">Áudio indisponível neste dispositivo.</string>
+</resources>
